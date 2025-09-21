@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1lurvvlzrl6ljo64jb7wpojbykjmsw4ln6cdvmfq",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "qizhenys",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.qizhenys.com/",
+    "Social Media": "https://www.qizhenys.com/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Qizhenys is a dynamic young team that brings together outstanding talents from various disciplines. With over a decade of dedicated experience in the visual field, we possess exceptional creativity and imagination, coupled with extensive expertise, enabling us to create numerous influential works within the industry. We excel at integrating cutting-edge technologies—such as AI, naked-eye 3D, and immersive experiences—into our films, making each piece unique and unforgettable. Based in Shenzhen, we provide comprehensive film and animation marketing services to clients worldwide. Committed to meeting client requirements and exceeding their expectations, our works have consistently received acclaim and awards. This drives us to continuously explore and advance in the visual arts, relentlessly pushing forward to help the manufacturing industry overcome communication barriers and reduce marketing costs through innovative technology.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Data in the visual field",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "To securely and efficiently store visual domain data on the Filecoin network, a systematic process must be followed, supported by robust management mechanisms. The entire workflow can be summarized as follows:\n\nFirst, acquire the required data from its source by downloading the original files, then verify their integrity and accuracy to ensure reliable data quality.\n\nNext, proceed to the data pre-processing stage. During this phase, files are converted into appropriate formats, compressed for optimization, and key metadata (such as title, creator, timestamp, and content type) is extracted—laying the foundation for future retrieval and management.\n\nThe pre-processed data is then divided into chunks that align with Filecoin’s sector size requirements and packaged into CAR (Content Addressable Archive) files. Each CAR file is assigned a unique PieceCID, serving as a cryptographic identifier for verification and tracking purposes.\n\nSelecting a suitable Storage Provider (SP) is a critical step. Factors such as geographic location, network stability, supported retrieval protocols (e.g., HTTP, Graphsync), reputation, and service quality must be carefully evaluated to ensure long-term, reliable data storage.\n\nOnce an SP is selected, the data enters the sealing phase. This computationally intensive process generates zero-knowledge proofs (zk-SNARKs) to guarantee the security and verifiability of storage. Following sealing, a storage deal is proposed on-chain, officially initiating the data storage process.\n\nAfter the storage provider accepts the deal and successfully submits the Proof-of-Replication (PoRep) to the blockchain, the data is formally committed to the network. From that point onward, the SP must regularly submit WindowPoSt proofs to continuously demonstrate that the data remains available and intact.\n\nUltimately, the stored data can be retrieved and accessed globally by users via its Content Identifier (CID) or other retrieval methods, enabling long-term preservation and open sharing.\n\nThroughout the entire data lifecycle, it is essential to establish a comprehensive data governance framework—including access control, version management, and audit mechanisms—design effective incentive models to encourage node participation, and ensure compliance with regulations concerning data privacy and intellectual property. These measures collectively safeguard the security, sustainability, and broad accessibility of visual data within the decentralized network.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.qizhenys.com/chanpinyi/\nhttps://www.qizhenys.com/chanpiner/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02826762\nf02827010\nf02827135\nf01021773\nf01081419\nf01083931\nf03623218\nf01084149\nf01084949\nf01708981\nf02825281\nf03602120\nf03611998",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1200TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-09-21 14:59:42.577920436 UTC",
+    "Validated By": "Zaczac11",
+    "Active": true,
+    "Updated At": "2025-09-21 14:59:42.577916264 UTC",
+    "Active Request ID": "8e6e111c-a527-417c-b5b5-e0a9f5a341ca",
+    "On Chain Address": "f1lurvvlzrl6ljo64jb7wpojbykjmsw4ln6cdvmfq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "8e6e111c-a527-417c-b5b5-e0a9f5a341ca",
+      "Request Type": "First",
+      "Created At": "2025-09-21 14:57:46.745251891 UTC",
+      "Updated At": "2025-09-21 14:57:46.745253339 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "Zaczac11",
+          "Signing Address": "f1ozvq6zbhlsxopu56c4irprb3opgdvtsyavibgjq",
+          "Created At": "2025-09-21 14:59:38.708000000 UTC",
+          "Message CID": "bafy2bzaceck7ndhjcqxkjpykvxrlt25mncaqkhlsgks22whnaxdvickulltq2"
+        }
+      ]
+    }
+  ]
+}
