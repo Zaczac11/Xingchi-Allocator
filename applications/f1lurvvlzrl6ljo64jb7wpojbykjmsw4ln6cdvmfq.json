@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1lurvvlzrl6ljo64jb7wpojbykjmsw4ln6cdvmfq",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "qizhenys",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.qizhenys.com/",
+    "Social Media": "https://www.qizhenys.com/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Qizhenys is a dynamic young team that brings together outstanding talents from various disciplines. With over a decade of dedicated experience in the visual field, we possess exceptional creativity and imagination, coupled with extensive expertise, enabling us to create numerous influential works within the industry. We excel at integrating cutting-edge technologies—such as AI, naked-eye 3D, and immersive experiences—into our films, making each piece unique and unforgettable. Based in Shenzhen, we provide comprehensive film and animation marketing services to clients worldwide. Committed to meeting client requirements and exceeding their expectations, our works have consistently received acclaim and awards. This drives us to continuously explore and advance in the visual arts, relentlessly pushing forward to help the manufacturing industry overcome communication barriers and reduce marketing costs through innovative technology.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Data in the visual field",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.qizhenys.com/chanpinyi/\nhttps://www.qizhenys.com/chanpiner/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, Australia (continent)",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02826762\nf02827010\nf02827135\nf01021773\nf01081419\nf01083931\nf03623218\nf01084149\nf01084949\nf01708981\nf02825281\nf03602120\nf03611998",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1.5PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1200TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-09-21 14:36:17.500266373 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1lurvvlzrl6ljo64jb7wpojbykjmsw4ln6cdvmfq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
